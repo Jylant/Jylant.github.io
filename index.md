@@ -1,12 +1,10 @@
-`#5E26C3`
-
 # Heippa Mualimalle!
 ***
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non nulla maximus quam sodales convallis 
->malesuada non libero. Vivamus quis faucibus nulla. Donec nec elementum augue. Fusce vel velit magna. 
+> _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non nulla maximus quam sodales convallis_
+>**malesuada non libero. Vivamus quis faucibus nulla. Donec nec elementum augue. Fusce vel velit magna.**
 >Vivamus massa eros, fermentum sit amet cursus faucibus, maximus efficitur sem. Integer mollis, eros vel 
 >sollicitudin semper, sem nibh lobortis purus, quis ultricies arcu dolor at nibh. Donec dignissim viverra 
->rhoncus. Quisque at risus quis erat cursus finibus vel vitae diam.
+>rhoncus. ***Quisque at risus quis erat cursus finibus vel vitae diam.***\*
 
 ***
 ## About this page
@@ -17,4 +15,4 @@
 
 ![Here is just a random pic of a sound that a crashing grand piano makes, according to a Donald Duck comic](./Kuvat/rynkkajynks.jpg)
 
-> "Lorem ipsumit sul on housuissas" - Me
+> *"_Lorem ipsumit sul on housuissas_" - [Me](https://github.com/Jylant)
