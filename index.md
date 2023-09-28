@@ -1,4 +1,4 @@
-'#5E26C3'
+`#5E26C3`
 
 # Heippa Mualimalle!
 ***
@@ -7,7 +7,6 @@
 >Vivamus massa eros, fermentum sit amet cursus faucibus, maximus efficitur sem. Integer mollis, eros vel 
 >sollicitudin semper, sem nibh lobortis purus, quis ultricies arcu dolor at nibh. Donec dignissim viverra 
 >rhoncus. Quisque at risus quis erat cursus finibus vel vitae diam.
->> "Lorem ipsumit sul on housuissas" - Me
 
 ***
 ## About this page
@@ -16,3 +15,6 @@
 ### Hosting
 ***This page is hosted on [GitHub Pages](https://pages.github.com/)***
 
+![Here is just a random pic of a sound that a crashing grand piano makes, according to a Donald Duck comic](./Kuvat/rynkkajynks.jpg)
+
+> "Lorem ipsumit sul on housuissas" - Me
