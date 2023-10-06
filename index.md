@@ -13,6 +13,6 @@
 ### Hosting
 ***This page is hosted on [GitHub Pages](https://pages.github.com/)***
 
-![Here is just a random pic of a sound that a crashing grand piano makes, according to a Donald Duck comic](./Kuvat/rynkkajynks.jpg)
+![Here is just a random pic of a sound that a crashing grand piano makes in Finnish, according to a Donald Duck comic](./Kuvat/rynkkajynks.jpg =400x400)
 
 > *"_Lorem ipsumit sul on housuissas_" - [Me](https://github.com/Jylant)
