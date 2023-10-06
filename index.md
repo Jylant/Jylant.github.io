@@ -13,6 +13,6 @@
 ### Hosting
 ***This page is hosted on [GitHub Pages](https://pages.github.com/)***
 
-![Picture of the first triambic stellation of an icosahedron](./Kuvat/rynkkajynks.jpg)
+![Picture of the first triambic stellation of an icosahedron](./Kuvat/favicon.ico)
 
 > *"_Lorem ipsumit sul on housuissas_" - [Me](https://github.com/Jylant)
