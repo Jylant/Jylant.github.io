@@ -1,0 +1,84 @@
+/* Hide the navigation menu by default */
+.nav-menu {
+    display: none;
+}
+
+#nav-toggle {
+    background-color: #360ba4;
+    color: #bcd995;
+    border: none;
+    padding: 6px 12px;
+    font-size: 0.4rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#nav-toggle:hover {
+    background-color: #2926cf;
+    color: #37e490;
+}
+
+/* Show the navigation menu when the checkbox is checked */
+#nav-toggle:hover + .nav-menu {
+    display: block;
+    
+}
+.nav-menu:hover {
+    display: block;
+}
+
+/* Style the navigation menu */
+
+.nav-menu {
+    position: relative;
+    top: 0px;
+    left: 0;
+    background-color: #de2478;;
+    padding-top: 2px;
+    margin: 0px;
+    
+    list-style-type: none;
+    width: max-content;
+}
+
+.nav-menu button {
+    display: block;
+    background-color: #360ba4;
+    color: #bcd995;
+    border: none;
+    padding: 6px 12px;
+    margin: 2px;
+    font-size: 0.4rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-menu :hover {
+    background-color: #2926cf;
+    color: #bcd995;
+}
+
+.nav-menu a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: #bcd995;
+}
+.nav-menu a:hover {
+    background-color: #2926cf;
+    color: #37e490;
+}
+
+ul {
+    
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    box-sizing: content-box;
+    background-color: #de2478;
+    color: #de2478;
+}

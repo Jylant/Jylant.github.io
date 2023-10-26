@@ -1,0 +1,191 @@
+body {
+    background-color: #e92bba;
+    background-image: repeating-conic-gradient(at 20px 20px, #e12392 16%, #182059 27%, #1bb489 12%);
+    -webkit-background-composite: padding-box;
+    background-repeat: no-repeat round;
+}
+
+.submenu {
+    display: none;
+}
+
+h1 {
+    font-family: 'Magneto';
+    font-size: 3rem;
+    text-align: start;
+    color: #9323d8;
+    margin-left: 5rem;
+}
+
+#otsake {
+    font-family: 'Magneto';
+    font-size: 4vw;
+    background: linear-gradient(to right, #2d094b, #2926cf, #2eccf4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#shadow {
+    font-family: 'Magneto';
+    font-size: 4vw;
+    text-align: center;
+    background: linear-gradient(to right, #336c72, #d352c2, #58086c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    z-index: -1;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    color: transparent;
+}
+
+#selite {
+    color:rgb(186, 224, 227);
+    font-style: oblique, bold;
+    font-family: 'Gigi';
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+p {
+    color: #eda8d8;
+    font-style: oblique;
+    font-family: 'Chiller';
+    font-size: 1.6vw;
+    text-align: center;
+}
+#declaration {
+    color: #8015aa;
+    text-shadow: 1px 1px 4px #2eccf4;
+    font-style: bold;
+    font-size: 7vw;
+    margin-top: 15%;
+}
+
+img {
+    padding: 4pt;
+    margin: 5%;
+    float: left;
+    background-color: #de2478;
+    border-radius: 11%;
+}
+
+aside {
+    float: left;
+}
+
+/* Hide the navigation menu by default */
+.nav-menu {
+    display: none;
+}
+
+#nav-toggle {
+    background-color: #360ba4;
+    color: #bcd995;
+    border: none;
+    padding: 6px 12px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 5px;
+    min-width: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+#nav-toggle:hover {
+    background-color: #2926cf;
+    color: #37e490;
+}
+
+/* Show the navigation menu when the checkbox is checked */
+#nav-toggle:hover + .nav-menu {
+    display: block;
+    
+}
+.nav-menu:hover {
+    display: block;
+}
+
+/* Style the navigation menu */
+
+.nav-menu {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    background-color: transparent;
+    padding-top: 2px;
+    margin: 0px;
+    list-style-type: none;
+    width: max-content;
+}
+
+.nav-menu button {
+    display: block;
+    background-color: #360ba4;
+    color: #bcd995;
+    border: none;
+    padding: 6px 12px;
+    margin: 2px;
+    font-size: 0.75vw;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 60px;
+}
+
+.nav-menu :hover {
+    background-color: #2926cf;
+    color: #bcd995;
+}
+
+.nav-item {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: #bcd995;
+}
+.nav-item a {
+    color: #bcd995;
+}
+.nav-item:hover {
+    background-color: #2926cf;
+    color: #37e490;
+}
+.nav-item a:hover {
+    color: #37e490;
+}
+ul {
+    
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    box-sizing: content-box;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #300c8a;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    position: fixed;
+    top: 5px;
+}
+
+#ruutu {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 315px;
+    height: 440px;
+    box-sizing: content-box;
+
+    border: 2px solid #bcd995;
+    image-rendering: auto;
+}

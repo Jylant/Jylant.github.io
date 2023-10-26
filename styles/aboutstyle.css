@@ -1,0 +1,140 @@
+/* Set the background color */
+body {
+    background-color: #243883;
+}
+
+/* Add a container for the content */
+.container {
+    background-color: #c1bac9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #24adda;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+/* Add a heading for the page */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5ce3e7;
+    text-align: center;
+}
+
+/* Add a paragraph for the main content */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #e4f0a8;
+}
+
+/* Add a border around the container */
+.container {
+    border: 2px solid #0077b6;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5ce3e7;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nav-menu {
+    display: none;
+}
+
+#nav-toggle {
+    background-color: #360ba4;
+    color: #bcd995;
+    border: none;
+    padding: 6px 12px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 5px;
+    min-width: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+#nav-toggle:hover {
+    background-color: #2926cf;
+    color: #37e490;
+}
+
+/* Show the navigation menu when the checkbox is checked */
+#nav-toggle:hover + .nav-menu {
+    display: block;
+    
+}
+.nav-menu:hover {
+    display: block;
+}
+
+/* Style the navigation menu */
+.nav-menu {
+    position: absolute;
+    top: 113px;
+    left: 4px;
+    background-color: transparent;
+    padding-top: 2px;
+    margin: 0px;
+    list-style-type: none;
+    width: max-content;
+}
+
+.nav-menu button {
+    display: block;
+    position: relative;
+    background-color: #360ba4;
+    color: #bcd995;
+    border: none;
+    padding: 6px 12px;
+    margin: 2px;
+    font-size: 0.75vw;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 60px;
+}
+
+.nav-menu :hover {
+    background-color: #2926cf;
+    color: #bcd995;
+}
+
+.nav-item {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: #bcd995;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #bcd995;
+}
+.nav-item:hover {
+    text-decoration: none;
+    background-color: #2926cf;
+    color: #37e490;
+}
+.nav-item a:hover {
+    text-decoration: none;
+    color: #37e490;
+}
+ul {
+    
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    box-sizing: content-box;
+}
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+}
