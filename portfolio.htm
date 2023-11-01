@@ -20,37 +20,39 @@
             background-color: #4CAF50;
             color: white;
             text-align: center;
-            text-decoration: line-through;
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
             border: none;
             border-radius: 5px;
         }
-                .nav-button {
-                    display: inline-block;
-                    padding: 10px 20px;
-                    background-color: #008CBA;
-                    color: white;
-                    text-align: center;
-                    text-decoration: none;
-                    font-size: 16px;
-                    margin: 4px 2px;
-                    cursor: pointer;
-                    border: none;
-                    border-radius: 5px;
-                }
+        #obsolete {
+            text-decoration: line-through;
+        }
+        .nav-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #008CBA;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
             </style>
             </head>
             <body>
                 <h1>My Projects</h1>
                 <div>
-                    <button class="project-button" onclick="document.getElementsByName('project-frame')[0].src='project1/README.md'">Project 1</button>
-                    <button class="project-button" onclick="document.getElementsByName('project-frame')[0].src='project2/README.md'">Project 2</button>
-                    <button class="project-button" onclick="document.getElementsByName('project-frame')[0].src='project3/README.md'">Project 3</button>
+                    <button class="project-button" onclick="document.getElementsByName('project-frame')[0].src='index.html'">Project 1</button>
+                    <button class="project-button" onclick="document.getElementsByName('project-frame')[0].src='readme.html'">Project 2</button>
+                    <button class="project-button" id="obsolete" onclick="document.getElementsByName('project-frame')[0].src='project3/README.md'">Project 3</button>
                     <!-- Add more projects here -->
                 </div>
-                <iframe name="project-frame" src="/this.html" frameborder="0"></iframe>
+                <iframe name="project-frame" src="/readme.html" frameborder="0"></iframe>
                 <img src="Kuvat/smolicon.png" alt="smolhedron" id="myObject" style="position: absolute;">
                 <div>
                     <button class="nav-button" onclick="window.location.href='index.html'">Home</button>
