@@ -1,6 +1,7 @@
 /* Set the background color */
 body {
     background-color: #243883;
+    text-shadow: 1px 1px 3px #150846;
 }
 
 /* Add a container for the content */
@@ -57,12 +58,14 @@ h2 {
     min-width: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
-    position: relative;
+    position: absolute;
+    top: 5%;
 }
 
 #nav-toggle:hover {
-    background-color: #2926cf;
+    background-color: transparent;
     color: #37e490;
+    text-shadow: 0 0 3px 2px #000;
 }
 
 /* Show the navigation menu when the checkbox is checked */
@@ -77,8 +80,8 @@ h2 {
 /* Style the navigation menu */
 .nav-menu {
     position: absolute;
-    top: 113px;
-    left: 4px;
+    top: 8%;
+    left: 5px;
     background-color: transparent;
     padding-top: 2px;
     margin: 0px;
@@ -103,11 +106,11 @@ h2 {
 }
 
 .nav-menu :hover {
-    background-color: #2926cf;
+    background-color: transparent;
     color: #bcd995;
 }
 
-.nav-item {
+.nav-item button {
     display: block;
     padding: 0;
     text-decoration: none;
@@ -117,10 +120,11 @@ h2 {
     text-decoration: none;
     color: #bcd995;
 }
-.nav-item:hover {
+.nav-item button:hover {
     text-decoration: none;
     background-color: #2926cf;
     color: #37e490;
+    margin: 2px;
 }
 .nav-item a:hover {
     text-decoration: none;

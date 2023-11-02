@@ -1,0 +1,15 @@
+h1 {
+    font-size: 1.5rem;
+    color: #9decf0;
+    text-shadow: 0 0 2px #17052a;
+    background-color: transparent;
+    padding: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #9decf0;
+    text-shadow: 0 0 2px #17052a;
+    background-color: transparent;
+    padding: 5px;
+}

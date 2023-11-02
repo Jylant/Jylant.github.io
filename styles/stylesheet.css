@@ -23,12 +23,13 @@ h1 {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    text-shadow: opx 0px 1px;
 }
 
 #shadow {
     font-size: 4vw;
     text-align: center;
-    background: linear-gradient(to right, #336c72, #d352c2, #58086c);
+    background: linear-gradient(to right, #51979e, #d352c2, #58086c);
     background-clip: text;
     -webkit-background-clip: text;
     z-index: -1;
@@ -36,6 +37,7 @@ h1 {
     top: 3px;
     left: 12px;
     color: transparent;
+    text-shadow: 0px 0px 1px;
 }
 
 #selite {
@@ -58,7 +60,7 @@ p {
     text-shadow: 1px 1px 4px #2eccf4;
     font-style: bold;
     font-size: 7vw;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 img {
@@ -179,11 +181,11 @@ nav {
 #ruutu {
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
-    width: 315px;
-    height: 440px;
+    margin: 60px 10px;
+    width: 24vw;
+    height: 260px;
     box-sizing: content-box;
-
     border: 2px solid #bcd995;
     image-rendering: auto;
+    color: inherit;
 }
