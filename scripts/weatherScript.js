@@ -1,4 +1,4 @@
-const API_KEY = 'eef1dc23090baa277945e7e9ec8f24da'; // Replace with your own API key from openweathermap.org
+const API_KEY = config.WEATHER_API_KEY; // Replace with your own API key from openweathermap.org
 const CITY = 'Oulu';
 const COUNTRY_CODE = 'FI';
 
